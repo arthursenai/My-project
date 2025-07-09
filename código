@@ -1,0 +1,14 @@
+// faça um algoritmo que peça ao usuário para digitar um número inteiro e diga se ele é par ímpar.
+programa {
+  funcao inicio() {
+    inteiro numero
+
+    escreva("Digite um número inteiro: ")
+    leia(numero)
+    se (numero % 2 == 0) {
+      escreva("O número é par.")
+    } senao {
+      escreva("O número é ímpar.")
+    }
+  }
+}
